@@ -33,7 +33,7 @@ main{
 }
 main h1{margin-bottom:5px;}
 main img{
-    width:600px;
+    width:50%;
     margin:0 auto;
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
 }
