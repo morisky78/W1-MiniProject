@@ -1,0 +1,65 @@
+*{padding:0;margin:0;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+body{
+    background-color:antiquewhite
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:cornflowerblue;
+    border-bottom:3px solid black;
+    text-align: right;
+    z-index: 10;
+    box-shadow: ;
+}
+header ul{
+    position:relative;
+    right:0;
+    padding:15px 30px 15px 0;
+}
+header li{
+    display:inline;
+    margin-left:20px;
+}
+header li a{font-weight: bold;text-decoration:none;}
+
+main{
+    position:relative;
+    text-align: center;
+    padding-top:70px;
+    padding-bottom:40px;
+}
+main h1{margin-bottom:5px;}
+main img{
+    width:600px;
+    margin:0 auto;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+main p{padding:10px;}
+
+#contact{
+    text-align: center;
+    padding:30px 0;
+    background-color:darkgoldenrod;
+}
+#contact h2{margin-bottom:20px;}
+#contact label{display: block;margin-bottom:5px;}
+#contact form{
+    border:3px solid darkblue;
+    border-radius: 10px;
+    padding:10px;
+    width:50%;
+    margin:0 auto;
+}
+#contact input{width:50%;}
+#contact #submitbtn{width:100px;height:40px;}
+
+footer{
+    text-align: center;
+    background-color: darkgreen;
+    padding:10px 0;
+    border-bottom:3px solid black;
+    color: white;
+}
